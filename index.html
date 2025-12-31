@@ -1,24 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-    <!-- <div class="box"></div> -->
-
-    <nav>
-        <div class="logo">My site</div>
-        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="uppernav">
+        <div class="logo">
+          <img class="invert" src="required/logo.svg" alt="logo" />
         </div>
-    </nav>
-</body>
+        <div class="home">
+          <img class="invert" src="required/home.svg" alt="home" />
+        </div>
+        <div class="searchbar">
+          <img class="invert search" src="required/search.svg" alt="search" />
+          <input
+            class="searc"
+            type="text"
+            placeholder="What do you want to play?"
+          />
+          <img class="invert browse" src="required/browse.svg" alt="browse" />
+          <div class="left">
+            <p class="expl"><b>Explore Premium</b></p>
+            <div class="download">
+              <img
+                class="invert down"
+                src="required/download.svg"
+                alt="download icon"
+              />
+              <p>Install App</p>
+            </div>
+            <div class="notification">
+              <img
+                class="invert down"
+                src="required/notification.svg"
+                alt="notify"
+              />
+              <img
+                class="invert down"
+                src="required/friendactivity.svg"
+                alt="freinds"
+              />
+            </div>
+            <div class="profile">
+              <img src="required/profile.png" alt="profile" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="uppersidebar">
+          <h3>Your Library</h3>
+          <div class="button">
+            <img class="invert" src="required/plus.svg" alt="add" />
+            <span><b>Create</b></span>
+          </div>
+        </div>
+        <div class="card1">
+          <h3>Create your first playlist</h3>
+          <p>It's easy,we'll help you</p>
+          <div class="btn1">
+            Create playlist
+          </div>
+        </div>
+        <div class="card1">
+          <h3>Let's find some podcasts to follow</h3>
+          <p>We'll keep you updated on new episodes</p>
+          <div class="btn1 btn2">
+            Browse podcasts
+          </div>
+        </div>
+      </div>
+      <div class="main-content"></div>
+      
+        <div class="music-player">
+
+          <div class="player-left">
+    <img src="required/bahubali.png" alt="music cover" />
+    <div class="musicleft">
+      <p class="title">Manohari</p>
+      <p class="artist">Divya Kumar, Manoj Muntashir, Neeti Mohan</p>
+    </div>
+    <img class="invert liked" src="required/addlikedsongs.svg" alt="like" />
+  </div>
+
+  <div class="player-center">
+    <div class="controls">
+      <img class="invert" src="required/shuffle.svg" />
+      <img class="invert" src="required/previous.svg" />
+      <div class="playpause">
+        <img src="required/play.svg" />
+      </div>
+      <img class="invert" src="required/next.svg" />
+      <img class="invert" src="required/repeat.svg" />
+    </div>
+
+    <div class="progress">
+      <span>0:42</span>
+      <div class="bar">
+        <div class="bar-fill"></div>
+      </div>
+      <span>4:18</span>
+    </div>
+  </div>
+
+  <div class="musicright">
+    <img class="invert" src="required/lyrics.svg" />
+    <img class="invert" src="required/queue.svg" />
+    <img class="invert" src="required/connectdevice.svg" />
+    <img class="invert" src="required/volume.svg" />
+    <div class="volume-bar">
+      <div class="volume-fill"></div>
+    </div>
+    <img class="invert" src="required/miniplayer.svg" />
+    <img class="invert" src="required/fullscreen.svg" />
+  </div>
+</div>
+
+      </div>
+    </div>
+  </body>
 </html>
