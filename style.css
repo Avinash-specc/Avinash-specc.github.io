@@ -212,7 +212,6 @@ body {
   background-color:rgba(35, 35, 35,0.8);
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   padding:1rem;
   border-radius:1rem;
   margin-top:4rem;
@@ -249,10 +248,7 @@ body {
   opacity:0.8;
   margin:1rem;
 }
-/* .musicmain{
-  display: flex;
-  align-items: center;
-} */
+
 
 .musicmain {
   display: flex;
@@ -279,21 +275,13 @@ body {
   justify-content: center;
   
 }
-/* .icons{
-  display: flex;
-  height:75px;
-  width:400px;
-  justify-content: space-between;
-  gap:1rem;
-  
-} */
 
 .icons {
   display: flex;
-  flex-direction: column;   /* stack controls + progress bar */
-  align-items: center;      /* center horizontally */
+  flex-direction: column; 
+  align-items: center;      
   justify-content: center;
-  width: 100%;              /* remove fixed 400px */
+  width: 100%;             
   gap: 0.5rem;
 }
 .musicright .invert{
@@ -445,4 +433,65 @@ body {
   height: 100%;
   width: 60%;
   background: #fff;
+}
+
+
+.main-content {
+  overflow-y: auto;
+}
+
+.section-label {
+  font-size: 13px;
+  color: #b3b3b3;
+  margin-top: 1rem;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+.songs-grid {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+
+.song-card {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.song-card:hover {
+    background: rgba(35, 35, 35, 0.8);
+
+}
+
+.song-card img {
+  width: 90%;
+  height: 160px;
+
+  border-radius: 0.5rem;
+}
+
+.song-card h4 {
+  margin-top: 0.75rem;
+  font-size: 14px;
+}
+
+.song-card p {
+  font-size:0.9rem;
+  color: #b3b3b3;
+  margin-top: 0.3rem;
+}
+
+.main-content::-webkit-scrollbar {
+  display: none;                
 }
