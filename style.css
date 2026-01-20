@@ -123,6 +123,7 @@ body {
 }
 
  .left .expl {
+  text-decoration: none;
   height:32px;
   background-color: white;
   color:black;
@@ -186,9 +187,14 @@ body {
   background-color:rgba(35, 35, 35,0.8);
   border-radius: 1rem;
 }
+.button a{
+  text-decoration: none;
+  color:white;
+}
 .button img{
   height:16px;
   width:16px;
+  cursor: pointer;
 }
 .uppersidebar h3{
   flex:1;
@@ -215,6 +221,9 @@ body {
   padding:1rem;
   border-radius:1rem;
   margin-top:4rem;
+}
+.card1 a{
+  text-decoration: none;
 }
 .card1 .btn2{
   width:150px;
@@ -364,6 +373,7 @@ body {
 .download:hover{
   transform:scale(1.1);
   opacity: 1;
+  cursor: pointer;
 }
 .notification .down:hover{
   transform: scale(1.1);
@@ -494,4 +504,8 @@ body {
 
 .main-content::-webkit-scrollbar {
   display: none;                
+}
+
+.down:hover{
+  cursor:pointer;
 }
