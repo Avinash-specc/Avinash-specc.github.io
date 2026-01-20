@@ -469,7 +469,7 @@ body {
 .songs-grid {
   margin-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
   gap: 1.5rem;
   padding-bottom: 2rem;
 }
@@ -488,11 +488,12 @@ body {
 }
 
 .song-card img {
-  width: 90%;
-  height: 160px;
-
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 0.5rem;
 }
+
 
 .song-card h4 {
   margin-top: 0.75rem;
