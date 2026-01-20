@@ -332,6 +332,8 @@ body {
 }
 
 .musicleft .title {
+  text-decoration: none;
+  color:white;
   font-size: 13px;
   font-weight: 600;
 }
@@ -342,6 +344,7 @@ body {
 }
 
 .liked {
+  cursor: pointer;
   height: 16px;
   opacity: 0.8;
 }
@@ -373,7 +376,7 @@ body {
 .download:hover{
   transform:scale(1.1);
   opacity: 1;
-  cursor: pointer;
+  cursor:pointer;
 }
 .notification .down:hover{
   transform: scale(1.1);
