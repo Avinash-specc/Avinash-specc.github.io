@@ -16,6 +16,9 @@ body {
   overflow: hidden;
 }
 
+.sidebar::-webkit-scrollbar{
+  display: none;
+}
 
 .container {
   display: grid;
